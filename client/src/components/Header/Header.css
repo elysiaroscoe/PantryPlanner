@@ -1,0 +1,58 @@
+.Header {
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+}
+
+a {
+    flex: 1;
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: palevioletred;
+}
+
+/* visited link */
+a:visited {
+    color: palevioletred;
+}
+
+/* mouse over link */
+a:hover {
+    color: palevioletred;
+}
+
+/* selected link */
+a:active {
+    color: rgb(167, 30, 76);
+    border: 3px solid rgb(167, 30, 76);
+    box-shadow: 2px 3px #666;
+    transform: translateY(4px);
+    transform: translateX(4px);
+}
+
+.Navigation {
+    width: 10%;
+    table-layout: fixed;
+}
+
+.Navigation tr {
+    display: flex;
+}
+
+.Navigation tr td {
+    display: flex;
+    flex: 0 0 100%;
+}
+
+.navButton {
+    background-color: pink;
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px 10px;
+    border: 3px solid palevioletred;
+    box-shadow: 4px 6px #999;
+}
